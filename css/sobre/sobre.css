@@ -1,0 +1,12 @@
+/*Sobre */
+
+.videoSobre .container {
+  display: flex;
+  justify-content: baseline;
+  
+}
+
+.videoSobre-sobre{
+  text-align: center;
+  margin-left: 25%;
+}

@@ -1,0 +1,44 @@
+
+/* footer */
+
+.rodapePrincipal-patrocinadores .container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodapePrincipal-patrocinadores-list {
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+  margin-right: 5%;
+  width: 70%;
+}
+
+.rodapePrincipal-contatoForm {
+  width: 25%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+}
+
+/*reponsivo */
+@media screen and (max-width: 768px) {
+  .rodapePrincipal-patrocinadores .container {
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .rodapePrincipal-patrocinadores-list {
+    margin: 0;
+    width: 100%;
+  }
+
+  .rodapePrincipal-contatoForm {
+    width: 100%;
+  }
+
+  .rodapePrincipal-contatoForm-fieldset {
+    justify-content: center;
+  }
+}
