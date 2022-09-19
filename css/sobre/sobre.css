@@ -8,6 +8,7 @@
 }
 .videoSobre .container {
   display: flex;
+  flex-wrap: wrap;
 }
 
 .videoSobre-sobre{
@@ -24,4 +25,5 @@
 
 .videoSobre-video {
   flex-grow: 1;
+  width: 450px;
 }
